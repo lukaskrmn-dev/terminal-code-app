@@ -1,0 +1,12 @@
+{
+  "name": "terminal-code-app",
+  "version": "0.1.0",
+  "description": "Browser-based Shell Terminal + Code Interpreter (Go + React)",
+  "type": "mcp-server",
+  "capabilities": {
+    "tools": ["execute_code", "execute_shell", "render_ui"],
+    "resources": ["terminal", "file_system", "code_editor"],
+    "prompts": []
+  },
+  "entry_point": "app:main"
+}
